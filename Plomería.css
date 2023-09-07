@@ -23,6 +23,7 @@ body {
         width: 100%;
         height: 10%;
         margin-right: 50px;
+
 }
 
 
@@ -76,8 +77,16 @@ ul a {
     text-decoration: none;
     background-color: transparent;
     font-size: 20px;
-    
+    padding-right: 50px;
 
+}
+
+.buttonsesion a {
+    font-size: 15px;
+    width: 50px;
+    margin: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .linkcatálogo{
@@ -97,7 +106,47 @@ ul a {
     margin: 20px;
 }
 
+.contacto{
+    padding-top: 250px ;
+    font-size: 10px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
 }
+
+/* .navbar i {
+    display: none;
+}
+#toggle-menu {
+    display: none;
+} */
+
+/* RESPONSIVE DESIGN */
+
+/* @media (max-width: 576px) {
+
+    .navbar {
+        width:100%;
+        height: calc (100vh - 80px)
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        display: none;
+    }
+}
+
+.navbar i{
+    display: block;
+}
+
+#toggle-menu:checked ~ .navbar {
+display: flex;
+} */
+
+
